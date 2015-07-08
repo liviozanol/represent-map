@@ -1,0 +1,8 @@
+{
+  "categories":[
+    {"name":"Estadual", "icon":"verde-university.png"},
+    {"name":"Federal", "icon":"roxo-university.png"},
+    {"name":"Municipal", "icon":"amarelo-university.png"},
+    {"name":"Particular", "icon":"azul-university.png"}
+  ]
+}

@@ -24,15 +24,24 @@ body
   width: 100%;
   height: auto;
 }
+
 #topbar .logo,
-#topbar .search,
-#topbar .right
+#topbar .share,
+#topbar #about_li-button
 {
   display: none;
 }
+
+/*#topbar .search
+{
+max-width: 200px;
+
+}
+*/
+
 #topbar .btn
 {
-  font-size: .7em;
+font-size: 12px;
   padding: .5em .75em;
 }
 #topbar .buttons
@@ -42,16 +51,26 @@ body
   padding: .5em;
   margin: 0px;
 }
-#topbar .left
+/*
+#topbar .navbar-left
 {
   position: static;
 }
+*/
 
+#topbar #search {
+    border-radius: 3px;
+    font-size: 12px;
+    height: 30px;
+    line-height: 1.5;
+    padding: 5px 10px;
+   }
 
-/* landscape styles */
+/* landscape styles 
 @media screen and (orientation:landscape) {
   #topbar
   {
     display: none;
   }
 }
+*/
